@@ -31,7 +31,6 @@ document.addEventListener("keyup",()=>{
     KeyDown=false;
 })
 
-// دعم الماوس
 document.addEventListener("mousemove", function (e) {
     const gameRect = game.getBoundingClientRect();
     let x = e.clientX - gameRect.left;
@@ -41,7 +40,6 @@ document.addEventListener("mousemove", function (e) {
     }
 });
 
-// دعم اللمس للموبايلات
 document.addEventListener("touchmove", function (e) {
     const gameRect = game.getBoundingClientRect();
     let touch = e.touches[0];
