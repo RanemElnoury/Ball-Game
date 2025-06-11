@@ -35,7 +35,7 @@ body{
     height: 20px;
     background-color: var(--obst-color);
     position: absolute;
-    animation: moveDown 5s linear forwards;
+    animation: moveDown 3s linear forwards;
 }
 
 .hole{
@@ -43,7 +43,7 @@ body{
     height: 20px;
     background-color: var(--bg-color);
     position: absolute;
-    animation: moveDown 5s linear forwards;
+    animation: moveDown 3s linear forwards;
 }
 
 @keyframes moveDown{
